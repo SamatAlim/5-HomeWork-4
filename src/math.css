@@ -1,0 +1,33 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+ }
+ .buttons{
+    display: flex;
+    gap: 10px;
+ }
+ .buttons>button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ .inputs{
+    display: flex;
+    gap: 10px;
+    height: 40px;
+ }
+ .inputs>input{
+    padding: 10px;
+    font-size: 13px;
+    outline: none;
+ }
+ p{
+    font-size: 30px;
+ }
+ h1{
+    font-size: 35px;
+ }
+ 
